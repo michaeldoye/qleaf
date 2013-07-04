@@ -1,0 +1,111 @@
+.top-bar .name h1 a:hover {
+color: rgba(46, 214, 46, 0.84);
+}
+
+.top-bar .name h1 a{
+transition:all .5s;
+}
+
+.setting{
+    position:relative;
+    top: -45px;
+    color: #ffffff;
+    left: 116px;
+    padding-bottom: 2px;
+    cursor:pointer;
+}
+
+.setting:hover{
+    border-bottom: 4px solid rgba(46, 214, 46, 0.84) !important;
+    color: rgba(46, 214, 46, 0.84);
+}
+
+.has-tip {
+border-bottom: dotted 0px #ccc !important;
+cursor: help;
+font-weight: bold;
+color: #ffffff;
+}
+
+.footer{
+	width: 100%;
+	position:fixed;	
+	bottom:0px;
+	z-index:9999;
+	max-width: 100%;
+	background: #d9d9d9;
+	padding-top: 15px;
+	border-top: 4px solid #555;
+}
+
+.six, .row .six {
+width: 45%;
+}
+
+.canvas{
+    border:1px solid lightgray;
+    padding:10px;
+    margin-bottom: 85px;
+}
+
+.droppable_demo {
+width: 100%;
+background: #d9d9d9;
+border: 1px solid #f2f2f2;
+text-align: center;
+position: relative;
+line-height: 50px;
+margin-bottom: 5px;
+margin-top: 5px;
+}
+
+.draggable_demo {
+width: 100%;
+cursor: move;
+background: #f2f2f2;
+border: 1px solid #d9d9d9;
+text-align: center;
+position: relative;
+line-height: 50px;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.droppable_demo.hover {
+    border: 5px dashed #aaa;
+    background:#efefef; }
+    
+    .heading{
+        background: lightgray;
+        padding:10px;
+        color: black;
+        border-top: 4px solid black;
+    
+        line-height: 19px;
+        font-size: 20px;
+}
+    
+    .heading:hover{
+        border-top: 4px solid rgba(46, 214, 46, 0.84);
+    }
+	
+.heading-tip{
+	margin-left:10px;
+	padding-bottom: 0px;
+}
+
+.heading-tip:hover{
+	color: #555;
+	border-bottom: 4px solid #555;
+}
+
+.hright{
+float:right;
+font-size: 21px;
+}
+
+.newdrop{
+position: absolute;
+right: 372px !important;
+border-right: 2px solid #555;
+}
