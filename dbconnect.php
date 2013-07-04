@@ -1,6 +1,7 @@
 <?php 
-//open a connection to the DB
+//open a connection to the DB for INSERT
 $link = mysql_connect("localhost","$user","$pass");
+
 //select a DB
 		mysql_select_db("$dbname", $link);
 
@@ -16,13 +17,9 @@ while ($newrow = mysql_fetch_array($heading)){
 $newarr[] = $newrow;
 }
 
-
-
- 
-
-
-//open another connection to the DB
+//open another connection to the DB for SELECT
 $link1 = mysql_connect("localhost","$user1","$pass1");
+
 //select a DB
 		mysql_select_db("$dbname1", $link);
 
