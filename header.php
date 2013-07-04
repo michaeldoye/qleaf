@@ -34,7 +34,7 @@
      <ul class="right">
         <li class="divider"></li>
         <li class="has-dropdown">
-          <a href="#">Grab Your Databases!</a>
+          <a href="#">Select Your Databases!</a>
           <ul class="dropdown">
             <li><label>Enter your database settings below for SELECT</label></li>
 			
