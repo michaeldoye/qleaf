@@ -37,6 +37,8 @@
           <a href="#">Grab Your Databases!</a>
           <ul class="dropdown">
             <li><label>Enter your database settings below for SELECT</label></li>
+			
+			<!-- The form which gets the Databases -->
 			<form action="index.php" method="get">
             <li>Enter the Database Name to select data from: <input placeholder="Your DB Name Here..." type="text" name="fname"></li>
 			<li>Enter the Table Name to select data from: <input placeholder="Your DB Table Name Here..." type="text" name="tablename"></li>
@@ -56,6 +58,8 @@
 			<li class="divider"></li>
             <li><input class="button success radius" value="Grab Them now!" type="submit"></li>
 			<li class="divider"></li>
+			
+			<!-- End the Form -->
 			</form>
           </ul>
         </li>
