@@ -19,7 +19,7 @@
       <li class="name">
         <h1>
           <a href="#">
-            Q
+            QLeaf V1.0
           </a>
         </h1>
       </li>
