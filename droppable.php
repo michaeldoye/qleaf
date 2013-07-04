@@ -1,5 +1,5 @@
 <?php 
-//// This file contains the loop which generates the draggable div elements(columns)
+//// This file contains the loop which generates the droppable div elements(columns)
 
 
 // create a counter to add a unique class to each draggable div
@@ -8,6 +8,7 @@
 
 //le loop	
 	foreach($newarr1 as $test1){ 
+	
 // Here we get gangster and store each column name from the array in an incrementing variable to use to display the column name
 	$ntitle1 = json_encode($newarr1[$classcount]);  
 	

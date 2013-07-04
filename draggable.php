@@ -8,6 +8,7 @@
 
 //le loop	
 	foreach($newarr as $test){ 
+	
 // Here we get gangster and store each column name from the array in an incrementing variable to use to display the column name
 	$ntitle = json_encode($newarr[$classcount]);  
 	
