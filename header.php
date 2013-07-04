@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Q | Development</title>
+<title>QLeaf | Development</title>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script src="custom/js/prototype.js" type="text/javascript"></script>
 <script src="custom/vendor/custom.modernizr.js"></script>
@@ -9,10 +9,13 @@
 <link rel="stylesheet" type="text/css" href="custom/foundation.min.css" />
 <link rel="stylesheet" type="text/css" href="custom/main.css" />
 <link rel="stylesheet" type="text/css" href="custom/fonts/general_enclosed_foundicons.css" />
+
+<!-- Inlcude the Database Connection -->
 <?php include 'dbconnect.php'; ?>
+
 </head>
 <body>
-
+<!-- Have a fucking nav bar- bitch! -->
 <nav class="top-bar">
     <ul class="title-area">
       <!-- Title Area -->
